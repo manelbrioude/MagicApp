@@ -1,10 +1,8 @@
 <template>
   <div>
     <h3>List of Cards</h3>
-    <p>You can filter through the list of cards, selecting your preferences and click on search</p>
-    <!-- <div>
-      <filters />
-    </div>-->
+
+    <filters />
 
     <cardList />
   </div>
@@ -32,10 +30,8 @@ export default {
 </script>
 <style scoped>
 h3 {
-  margin-top: 0px;
+  margin-top: 45px;
   text-align: center;
-}
-p {
-  text-align: center;
+  color: white;
 }
 </style>

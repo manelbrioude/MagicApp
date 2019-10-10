@@ -33,6 +33,11 @@ export default new Router({
       name: "CardDetails",
       component: () => import("./views/CardDetails.vue"),
       props: true
+    },
+    {
+      path: "/Chat",
+      name: "Chat",
+      component: () => import("./views/Chat.vue")
     }
   ]
 });
